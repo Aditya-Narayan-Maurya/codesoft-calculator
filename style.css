@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    margin-top: 3.2rem;
+
+}
+.container{
+    margin: auto;
+    margin-top: 4rem;
+    background-color: rgb(86, 141, 193);
+    height: 420px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+input{
+    border-radius: 1rem 1rem .4rem .4rem;
+    border-bottom: 2px solid black;
+    height: 80px;
+    background-color: rgb(100, 148, 168);
+    text-align: end;
+    padding: .5rem;
+    font-size: 1.5rem;
+    width: 93%;
+}
+.btn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:.75rem;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+.btn div{
+    background-color: rgb(119, 140, 162);
+}
+ .btn div:hover{
+    background-color: rgb(203, 203, 52);
+}
+.btn div{
+    border: 2px solid black;
+     text-align: center;
+     padding: 12px;
+     border-radius: 28%;
+}
